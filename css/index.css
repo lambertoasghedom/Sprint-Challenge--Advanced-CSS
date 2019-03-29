@@ -207,8 +207,12 @@ footer {
 }
 @media ( max-width: 500px ) {
   .home .space-images {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+  }
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
   }
 }
 .home .space-images img {

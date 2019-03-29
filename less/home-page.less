@@ -24,8 +24,12 @@
     width: 100%;
     
     @media @phone {
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: center;
+      
+      .sky, .launch {
+        display: none;
+      }
     }
 
     img {
@@ -37,6 +41,7 @@
       @media @phone {
         width: 92%;
       }
+
     }
   }
 
