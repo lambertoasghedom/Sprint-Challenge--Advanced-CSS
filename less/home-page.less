@@ -2,6 +2,12 @@
 
 .home {
 
+  header {
+    img {
+        width: 100%;
+    }
+  }
+
   @media @phone {
     width: 95%;
   }
@@ -17,6 +23,7 @@
     }
     
   }
+
   
   .space-images {
     display: flex;
@@ -88,15 +95,10 @@
       }
 
       .btn {
-        .custom-button(3rem, 10rem);
-        background: #22283A;
-        border-radius: 5px;
-        color: white;
-        font-size: 1.6rem;
+        .custom-button(#22283A);
 
         @media @phone {
           width: 100%;
-          padding: 3rem;
           border: none;
           border-radius: 7px;
         }

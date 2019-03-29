@@ -189,6 +189,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home header img {
+  width: 100%;
+}
 @media ( max-width: 500px ) {
   .home {
     width: 95%;
@@ -266,17 +269,16 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  height: 3rem;
-  width: 10rem;
   background: #22283A;
   border-radius: 5px;
   color: white;
   font-size: 1.6rem;
+  padding: 10px 0;
+  width: 10rem;
 }
 @media ( max-width: 500px ) {
   .home .walk .walk-text .btn {
     width: 100%;
-    padding: 3rem;
     border: none;
     border-radius: 7px;
   }
